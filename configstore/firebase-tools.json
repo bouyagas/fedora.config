@@ -1,0 +1,37 @@
+{
+	"motd": {
+		"cloudBuildErrorAfter": 1594252800000,
+		"cloudBuildWarnAfter": 1590019200000,
+		"defaultNode10After": 1594252800000,
+		"minVersion": "3.0.5",
+		"node8DeploysDisabledAfter": 1613390400000,
+		"node8RuntimeDisabledAfter": 1615809600000,
+		"node8WarnAfter": 1600128000000,
+		"fetched": 1683740798106
+	},
+	"usage": true,
+	"analytics-uuid": "333e16a7-65cf-4a39-b0de-3bdc72ee2639",
+	"user": {
+		"iss": "accounts.google.com",
+		"azp": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"aud": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"sub": "111231433985332112870",
+		"email": "bouyagassama@gmail.com",
+		"email_verified": true,
+		"at_hash": "Tt4AKhOACoAi85LiOvCWkw",
+		"iat": 1683740824,
+		"exp": 1683744424
+	},
+	"tokens": {
+		"expires_at": 1683744423621,
+		"access_token": "ya29.a0AWY7CkkhZCso68rBPxDb7P6hushV9YlzN_5-aYI7knlJ9F9sqEggu1u1rJ6nkRVJoQ_J_PJM49au8YPDcoOCYF3cdzH5na05KTO97SxJctr2j6-8_0MFfvIuxeS5_O3RxgITNAxbExvlcGmk43z9cDGTMUDZ3UG6newfaCgYKAZESARISFQG1tDrpGutnoET0rCaIIlmrx1FHGQ0171",
+		"expires_in": 3599,
+		"refresh_token": "1//01emdF5jzFwwpCgYIARAAGAESNwF-L9IrYMQD8YA_39sk9Zfn1HXH_vehKBPZBSlrxMpgYOJKMEmseth-0GuspbHlRqkuCxlDNlo",
+		"scope": "https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/userinfo.email openid https://www.googleapis.com/auth/firebase https://www.googleapis.com/auth/cloud-platform",
+		"token_type": "Bearer",
+		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6Ijc3NzBiMDg1YmY2NDliNzI2YjM1NzQ3NjQwMzBlMWJkZTlhMTBhZTYiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTExMjMxNDMzOTg1MzMyMTEyODcwIiwiZW1haWwiOiJib3V5YWdhc3NhbWFAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF0X2hhc2giOiJUdDRBS2hPQUNvQWk4NUxpT3ZDV2t3IiwiaWF0IjoxNjgzNzQwODI0LCJleHAiOjE2ODM3NDQ0MjR9.oGRP60ZcQQHycZjLP0qKuZfVUBTvWJBSyhCpFbgZQUIELWXZP8Aey87MrMuqwGqL7xkmxSWOul3XgkOVR6xVUaZ3SQ2iQFj1Q5sp39MvFj5bIKHi6YsQKxHfuoNovG-yLiv5Hp8ZjznCWqzHUwkIkkLkajN7y4JOQJ0Brw_a1CeX419YqY0NUtxDrPFf8knZvj_okolwGS4gCSuvcaJTYmHYQdHKaz4q-faaMTVUw4OtyLowqsFlwn3xeaIN-D09X45eRTo3OptRlhgc8_Z8BKoKsVWP-hFxZedfMzBoHV5b5yhGwhkthWwekIl5ApaIHFjaIrTWi-Tft1UnTJYMBw"
+	},
+	"activeProjects": {
+		"/home/mohamedbgassama/company/test/warroom": "battlelink"
+	}
+}

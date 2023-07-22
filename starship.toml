@@ -1,0 +1,68 @@
+# Get editor completions based on the config schema
+"$schema" = 'https://starship.rs/config-schema.json'
+
+# Inserts a blank line between shell prompts
+add_newline = true
+
+# Replace the "❯" symbol in the prompt with "➜"
+[character] # The name of the module we are configuring is "character"
+success_symbol = "[➜](bold green)" # The "success_symbol" segment is being set to "➜" with the color "bold green"
+
+# Disable the package module, hiding it from the prompt completely
+[package]
+disabled = true
+
+# Rust 
+[rust]
+format = "via [⚙️ $version](red bold)"
+
+# Docker
+[docker_context]
+format = "via [🐋 $context](blue bold)"
+
+#Git
+[git_branch]
+symbol = "🌱 "
+truncation_length = 4
+truncation_symbol = ""
+ignore_branches = ["master", "main"]
+
+[git_commit]
+commit_hash_length = 4
+tag_symbol = "🔖 "
+
+[git_state]
+format = '[\($state( $progress_current of $progress_total)\)]($style) '
+cherry_pick = "[🍒 PICKING](bold red)"
+
+#NodeJs
+[nodejs]
+format = "via [🤖 $version](bold green) "
+
+#Python
+[python]
+symbol = "🐍 "
+pyenv_version_name = true
+
+#Sudo
+[sudo]
+style = "bold green"
+symbol = "👩‍💻 "
+disabled = false
+
+#Username
+[username]
+style_user = "#ECEFF4"
+style_root = "black bold"
+format = "user: [$user]($style) "
+disabled = false
+show_always = true
+
+#Status
+[status]
+style = "color:#3B4252"
+not_found_symbol = "🔍❌"
+success_symbol = "🟢 ✔️"
+format = '[\[$symbol$signal_name$maybe_int\]]($style) '
+map_symbol = true
+disabled = false
